@@ -242,3 +242,23 @@ nav .menu li a {
   vertical-align: top;
   width: 120px;
 }
+@media screen and (min-width: 768px) {
+  header .titular .publicar {
+    padding-left: 3em;
+    position: relative;
+  }
+  header .titular .publicar:before {
+    left: 0px;
+    font-size: 2.5em;
+    position: absolute;
+    top: -10px;
+  }
+  .posts .post {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+  }
+  .posts .post:nth-child(odd) {
+    margin-right: 2%;
+  }
+}
